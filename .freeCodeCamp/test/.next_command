@@ -112,3 +112,23 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git init
 git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/vito405/https-freecodecam-learnsalona-s5cn8bw3n7x.ws-us117.gitpod.io-.git
+git push -u origin master
+git add salon.sql
+git push
+git add salon.sh
+git push
+git push
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+insert or update on table "appointments" violates foreign key constraint "appointments_service_id_fkey"
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+clear
+echo "# https-freecodecam-learnsalona-s5cn8bw3n7x.ws-us117.gitpod.io-" >> README.md
+git remote -v
+git remote remove origin
+git remote add origin https://github.com/vito405/your-repository.git
+git push -u origin main
+git init
+git add .
